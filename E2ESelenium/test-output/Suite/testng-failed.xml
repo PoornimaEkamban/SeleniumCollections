@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="TP.E2ESelenium.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="ValidationAssertFail(failed)">
+    <classes>
+      <class name="TP.E2ESelenium.ValidateTest">
+        <methods>
+          <include name="validateTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- TP.E2ESelenium.ValidateTest -->
+    </classes>
+  </test> <!-- ValidationAssertFail(failed) -->
+</suite> <!-- Failed suite [Suite] -->
